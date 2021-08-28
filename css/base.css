@@ -1,0 +1,65 @@
+﻿/* 基礎初始化 */
+
+
+/*清除元素默認的內外邊距  */
+* {
+    margin: 0;
+    padding: 0
+}
+/*讓所有斜體 不傾斜*/
+em,
+i {
+    font-style: normal;
+}
+/*去掉列表前面的小點*/
+li {
+    list-style: none;
+}
+/*圖片沒有邊框 去掉圖片底側的空白縫隙*/
+img {
+    border: 0;  /*ie6*/
+    vertical-align: middle;
+}
+/*讓button 按鈕 變成小手*/
+button {
+    cursor: pointer;
+}
+/*取消鏈接的下劃線*/
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #e33333;
+}
+
+button,
+input {
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    outline: none;
+}
+
+body {
+    background-color: #fff;
+    font: 12px/1.5 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    color: #666
+}
+
+.hide,
+.none {
+    display: none;
+}
+/*清除浮動*/
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+

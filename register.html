@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>註冊頁面</title>
+        <!-- 導入 icon -->
+        <link rel="shortcut icon" href="favicon.ico" >
+        <!-- 導入 初始化的CSS文件 -->
+        <link rel="stylesheet" href="css/base.css">
+        <!-- 導入 register css文件 -->
+        <link rel="stylesheet" href="css/register.css">
+</head>
+<body>
+    <div class="w">
+        <!-- header -->
+        <div class="header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/logo.png" alt="">
+                </a>               
+            </div>
+        </div>
+        <!-- registerarea -->
+        <div class="registerarea">
+            <h3>
+                註冊新用戶
+                <em>
+                    我有帳號，去 <a href="login.html">登入</a>  
+                </em>
+            </h3>
+            <div class="reg-form">
+                <form action="demo.php">
+                    <ul>
+                        <li>
+                            <label for="tel">手機號碼:</label>
+                            <input type="text" class="inp" id="tel">
+                            <span class="error">
+                                <i class="error_icon"></i>
+                                手機號碼格式不正確，請重新輸入
+                            </span>
+                        </li>
+                        <li>
+                            <label for="sms">簡訊驗證碼:</label>
+                            <input type="text" class="inp" id="sms">
+                        </li>
+                        <li>
+                            <label for="pwd">登入密碼:</label>
+                            <input type="text" class="inp" id="pwd">
+                            <span class="success">
+                                <i class="success_icon"></i>
+                                恭喜您輸入正確
+                            </span>
+                        </li>
+                        <li class="safe">
+                            安全程度 
+                            <em class="weak">弱</em>
+                            <em class="among">中</em>
+                            <em class="strength">強</em>
+                        </li>
+                        <li>
+                            <label for="repwd">確認密碼:</label>
+                            <input type="text" class="inp" id="repwd">
+                            <span class="success">
+                                <i class="success_icon"></i>
+                                恭喜您輸入正確
+                            </span>
+                        </li>
+                        <li class="agree">
+                            <input type="checkbox" >
+                            同意協議並註冊
+                            <a href="#">《知果果用戶協議》</a>
+                        </li>
+                        <li>
+                            <input type="submit" value="完成註冊" class="over">
+                        </li>
+                    </ul>
+                </form>             
+            </div>
+        </div>
+        <!-- footer -->
+        <div class="footer">
+            <p class="links">
+                關於我們 | 聯繫我們 | 聯繫客服 | 商家入駐 | 營銷中心 | 手機品優購 | 友情鏈接 | 銷售聯盟 | 品優購社區 | 品優購公益 | English Site | Contact U|
+            </p>
+            <p class="copyright">
+                地址：北京市昌平区建材城西路金燕龙办公楼一层 邮编：100096 电话：400-618-4000 传真：010-82935100 邮箱: zhanghj+itcast.cn<br>
+                京ICP备08001421号京公网安备110108007702
+            </p>
+        </div>    
+    </div>
+</body>
+</html>
